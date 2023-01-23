@@ -1,4 +1,6 @@
 // 'use strict';
+// Selecting all required elements
+
 const btnScrollTo = document.querySelector('.btn--scroll-to');
 const section1 = document.querySelector('#section--1');
 const tabs = document.querySelectorAll('.operations__tab');
@@ -503,7 +505,6 @@ window.addEventListener('beforeunload', function (e) {
   console.log(e);
   e.returnValue = '';
 });
-
 
 
 // Efficient Script Loading_ defer and async
